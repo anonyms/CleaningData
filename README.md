@@ -1,7 +1,7 @@
 CleaningData
 ============
 
-Please load the "run_analysis.R" file, and then run the function "run_analysis()". This will return the tidy data set, as described in the assignment. 
+Please load the "run_analysis.R" file, and then run the function "run_analysis()". This function will return the tidy data set, as described in the assignment. 
 
 Please note that your working directory should be set to contain the 'UCI HAR DATASET' unzipped folder.
 
