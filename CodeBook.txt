@@ -1,7 +1,7 @@
 "subject_id"  - The identificator of the test person for the experiment
 "activity_name" - The activity the mesures are linked to
 
-The below are all average mesures for the different activities each test subject went through
+The below are all average mesures taken for the different activities each test subject went through
 "Avg_tBodyAcc-mean()-X" 
 "Avg_tBodyAcc-mean()-Y" 
 "Avg_tBodyAcc-mean()-Z" 
