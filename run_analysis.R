@@ -44,3 +44,5 @@ full_set$activity_id <- NULL
 melted_data <- melt(full_set,id=c("subject_id","activity_name"))
 tidy_data <- dcast(melted_data, subject_id + activity_name ~ variable,mean)
 names(tidy_data) <- paste("Avg",names(tidy_data),sep="_")
+names(tidy_data)[1] <- "subject_id"
+names(tidy_data)[2] <- "activity_name"
